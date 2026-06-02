@@ -60,6 +60,9 @@ def on_key(event):
     box2_x2 = box2_plt_x + box2_width
     box2_y2 = ylim_max - box2_plt_y
 
+    xi1_max = (box1_x1 - box2_x1) >= 0
+    print()
+
     xi1 = max(box1_x1, box2_x1)
     yi1 = max(box1_y1, box2_y1)
     xi2 = min(box1_x2, box2_x2)
@@ -123,8 +126,8 @@ step = 0.1
 
 BOX_1_TOP_LEFT_X = 1
 BOX_1_TOP_LEFT_Y = 1
-BOX_2_TOP_LEFT_X = 5
-BOX_2_TOP_LEFT_Y = 5
+BOX_2_TOP_LEFT_X = 2.75
+BOX_2_TOP_LEFT_Y = 2.75
 
 xlim_min = 0; xlim_max = 10
 ylim_min = 0; ylim_max = 10
