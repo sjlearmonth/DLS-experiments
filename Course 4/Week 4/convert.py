@@ -9,7 +9,5 @@ from PIL import Image
 img = Image.open("stephen mulhern.webp").convert("RGB")
 img.save("content.jpg", "JPEG")
 
-img = Image.open("creation-of-adam-sistine-chapel.webp").convert("RGB")
-img.save("style.jpg", "JPEG")
 
 

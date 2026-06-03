@@ -201,6 +201,6 @@ else:
 
 inter_area = inter_width * inter_height
 
-fig.suptitle(f"xi1={xi1:.1f}, yi1={yi1:.1f}; xi2={xi2:.1f}, yi2={yi2:.1f}\n\n width={inter_width:.1f}, height={inter_height:.1f}, area: {inter_area:.1f}")
+fig.suptitle(f"xi1={xi1:.1f}, yi1={yi1:.1f}; xi2={xi2:.1f}, yi2={yi2:.1f}\n\n width={inter_width:.2f}, height={inter_height:.2f}, area: {inter_area:.2f}")
 
 plt.show()
